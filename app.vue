@@ -20,5 +20,7 @@
 </script>
 
 <template>
-  <CounterA />
+  <v-col jusitfy="center">
+    <CounterA />
+  </v-col>
 </template>
