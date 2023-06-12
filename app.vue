@@ -10,6 +10,10 @@
     count.value--
   }
 
+  watch(count, () => {
+    alert('数字が変わりました')
+  })
+
   provide('count', count)
   provide('addCount', addCount)
   provide('deleteCount', deleteCount)
